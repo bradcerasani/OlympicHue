@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		334B87205849456FB526BCFE /* libPods-HueAppTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4509B68A8174420A5885CA0 /* libPods-HueAppTest.a */; };
 		9B5D09BA189243CD00C88AD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D09B9189243CD00C88AD2 /* Foundation.framework */; };
 		9B5D09BC189243CD00C88AD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D09BB189243CD00C88AD2 /* CoreGraphics.framework */; };
 		9B5D09BE189243CD00C88AD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D09BD189243CD00C88AD2 /* UIKit.framework */; };
@@ -22,6 +23,16 @@
 		9B5D09DE189243CD00C88AD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D09BD189243CD00C88AD2 /* UIKit.framework */; };
 		9B5D09E6189243CD00C88AD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D09E4189243CD00C88AD2 /* InfoPlist.strings */; };
 		9B5D09E8189243CD00C88AD2 /* HueAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D09E7189243CD00C88AD2 /* HueAppTests.m */; };
+		9B5D09F3189243D700C88AD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D09D2189243CD00C88AD2 /* ViewController.m */; };
+		9B5D09F4189243D700C88AD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D09C9189243CD00C88AD2 /* AppDelegate.m */; };
+		9B5D09F5189243D700C88AD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D09C5189243CD00C88AD2 /* main.m */; };
+		9B5D09F7189243D700C88AD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D09BB189243CD00C88AD2 /* CoreGraphics.framework */; };
+		9B5D09F8189243D700C88AD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D09BD189243CD00C88AD2 /* UIKit.framework */; };
+		9B5D09F9189243D700C88AD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D09B9189243CD00C88AD2 /* Foundation.framework */; };
+		9B5D09FB189243D700C88AD2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D09CE189243CD00C88AD2 /* Main_iPad.storyboard */; };
+		9B5D09FC189243D700C88AD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D09D4189243CD00C88AD2 /* Images.xcassets */; };
+		9B5D09FD189243D700C88AD2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D09CB189243CD00C88AD2 /* Main_iPhone.storyboard */; };
+		9B5D09FE189243D700C88AD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D09C2189243CD00C88AD2 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5480CDD9D67541758A419852 /* Pods-HueAppTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HueAppTest.xcconfig"; path = "Pods/Pods-HueAppTest.xcconfig"; sourceTree = "<group>"; };
 		9B5D09B6189243CD00C88AD2 /* HueApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HueApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5D09B9189243CD00C88AD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9B5D09BB189243CD00C88AD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +67,9 @@
 		9B5D09E3189243CD00C88AD2 /* HueAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HueAppTests-Info.plist"; sourceTree = "<group>"; };
 		9B5D09E5189243CD00C88AD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B5D09E7189243CD00C88AD2 /* HueAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HueAppTests.m; sourceTree = "<group>"; };
+		9B5D0A02189243D700C88AD2 /* HueApp Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HueApp Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5D0A03189243D700C88AD2 /* HueAppTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HueAppTest-Info.plist"; path = "/Users/rudi/Source/iOS/HueApp/HueApp/HueAppTest-Info.plist"; sourceTree = "<absolute>"; };
+		A4509B68A8174420A5885CA0 /* libPods-HueAppTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HueAppTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B5D09F6189243D700C88AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5D09F7189243D700C88AD2 /* CoreGraphics.framework in Frameworks */,
+				9B5D09F8189243D700C88AD2 /* UIKit.framework in Frameworks */,
+				9B5D09F9189243D700C88AD2 /* Foundation.framework in Frameworks */,
+				334B87205849456FB526BCFE /* libPods-HueAppTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,6 +114,7 @@
 				9B5D09E1189243CD00C88AD2 /* HueAppTests */,
 				9B5D09B8189243CD00C88AD2 /* Frameworks */,
 				9B5D09B7189243CD00C88AD2 /* Products */,
+				5480CDD9D67541758A419852 /* Pods-HueAppTest.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +123,7 @@
 			children = (
 				9B5D09B6189243CD00C88AD2 /* HueApp.app */,
 				9B5D09DA189243CD00C88AD2 /* HueAppTests.xctest */,
+				9B5D0A02189243D700C88AD2 /* HueApp Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +135,7 @@
 				9B5D09BB189243CD00C88AD2 /* CoreGraphics.framework */,
 				9B5D09BD189243CD00C88AD2 /* UIKit.framework */,
 				9B5D09DB189243CD00C88AD2 /* XCTest.framework */,
+				A4509B68A8174420A5885CA0 /* libPods-HueAppTest.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				9B5D09C1189243CD00C88AD2 /* HueApp-Info.plist */,
+				9B5D0A03189243D700C88AD2 /* HueAppTest-Info.plist */,
 				9B5D09C2189243CD00C88AD2 /* InfoPlist.strings */,
 				9B5D09C5189243CD00C88AD2 /* main.m */,
 				9B5D09C7189243CD00C88AD2 /* HueApp-Prefix.pch */,
@@ -193,6 +223,25 @@
 			productReference = 9B5D09DA189243CD00C88AD2 /* HueAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		9B5D09F1189243D700C88AD2 /* HueAppTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5D09FF189243D700C88AD2 /* Build configuration list for PBXNativeTarget "HueAppTest" */;
+			buildPhases = (
+				0C876DCEFB2844778D914463 /* Check Pods Manifest.lock */,
+				9B5D09F2189243D700C88AD2 /* Sources */,
+				9B5D09F6189243D700C88AD2 /* Frameworks */,
+				9B5D09FA189243D700C88AD2 /* Resources */,
+				CC2C494F46934AC89CF2A93E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HueAppTest;
+			productName = HueApp;
+			productReference = 9B5D0A02189243D700C88AD2 /* HueApp Test.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -221,6 +270,7 @@
 			projectRoot = "";
 			targets = (
 				9B5D09B5189243CD00C88AD2 /* HueApp */,
+				9B5D09F1189243D700C88AD2 /* HueAppTest */,
 				9B5D09D9189243CD00C88AD2 /* HueAppTests */,
 			);
 		};
@@ -246,7 +296,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B5D09FA189243D700C88AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5D09FB189243D700C88AD2 /* Main_iPad.storyboard in Resources */,
+				9B5D09FC189243D700C88AD2 /* Images.xcassets in Resources */,
+				9B5D09FD189243D700C88AD2 /* Main_iPhone.storyboard in Resources */,
+				9B5D09FE189243D700C88AD2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C876DCEFB2844778D914463 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC2C494F46934AC89CF2A93E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-HueAppTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B5D09B2189243CD00C88AD2 /* Sources */ = {
@@ -264,6 +358,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B5D09E8189243CD00C88AD2 /* HueAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5D09F2189243D700C88AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5D09F3189243D700C88AD2 /* ViewController.m in Sources */,
+				9B5D09F4189243D700C88AD2 /* AppDelegate.m in Sources */,
+				9B5D09F5189243D700C88AD2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +559,39 @@
 			};
 			name = Release;
 		};
+		9B5D0A00189243D700C88AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5480CDD9D67541758A419852 /* Pods-HueAppTest.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HueApp/HueApp-Prefix.pch";
+				INFOPLIST_FILE = "HueAppTest-Info.plist";
+				PRODUCT_NAME = "HueApp Test";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B5D0A01189243D700C88AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5480CDD9D67541758A419852 /* Pods-HueAppTest.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HueApp/HueApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TESTFLIGHT=1",
+				);
+				INFOPLIST_FILE = "HueAppTest-Info.plist";
+				PRODUCT_NAME = "HueApp Test";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -474,6 +611,7 @@
 				9B5D09ED189243CD00C88AD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B5D09EE189243CD00C88AD2 /* Build configuration list for PBXNativeTarget "HueAppTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +620,16 @@
 				9B5D09F0189243CD00C88AD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5D09FF189243D700C88AD2 /* Build configuration list for PBXNativeTarget "HueAppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5D0A00189243D700C88AD2 /* Debug */,
+				9B5D0A01189243D700C88AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

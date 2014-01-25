@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  HueApp
 //
-//  Created by Rudi Tactica on 1/24/2014.
+//  Created by Rudi Strahl on 1/24/2014.
 //  Copyright (c) 2014 Rudi Strahl. All rights reserved.
 //
 
@@ -12,7 +12,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+#ifdef TESTFLIGHT
+    [TestFlight takeOff:@"80ecaac6-ac62-4204-958a-139c03f4c1db"];
+#endif
     return YES;
 }
 							
