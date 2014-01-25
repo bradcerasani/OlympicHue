@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		172D88DA47D84AD0B59DA1D4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C626FCE46FE4DD8A136D8A0 /* libPods.a */; };
 		334B87205849456FB526BCFE /* libPods-HueAppTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4509B68A8174420A5885CA0 /* libPods-HueAppTest.a */; };
 		9B5D09BA189243CD00C88AD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D09B9189243CD00C88AD2 /* Foundation.framework */; };
 		9B5D09BC189243CD00C88AD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D09BB189243CD00C88AD2 /* CoreGraphics.framework */; };
@@ -33,6 +34,8 @@
 		9B5D09FC189243D700C88AD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D09D4189243CD00C88AD2 /* Images.xcassets */; };
 		9B5D09FD189243D700C88AD2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D09CB189243CD00C88AD2 /* Main_iPhone.storyboard */; };
 		9B5D09FE189243D700C88AD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D09C2189243CD00C88AD2 /* InfoPlist.strings */; };
+		BEF87B2C18944E1C00FFFF15 /* HueSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF87B2B18944E1B00FFFF15 /* HueSDK_iOS.framework */; };
+		BEF87B2D18944E1C00FFFF15 /* HueSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF87B2B18944E1B00FFFF15 /* HueSDK_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4138AEFF7A6A4F5DBCEC47BC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		5480CDD9D67541758A419852 /* Pods-HueAppTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HueAppTest.xcconfig"; path = "Pods/Pods-HueAppTest.xcconfig"; sourceTree = "<group>"; };
 		9B5D09B6189243CD00C88AD2 /* HueApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HueApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5D09B9189243CD00C88AD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,7 +73,9 @@
 		9B5D09E7189243CD00C88AD2 /* HueAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HueAppTests.m; sourceTree = "<group>"; };
 		9B5D0A02189243D700C88AD2 /* HueApp Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HueApp Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5D0A03189243D700C88AD2 /* HueAppTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HueAppTest-Info.plist"; path = "/Users/rudistrahl/Source/iOS/HueApp/HueApp/HueAppTest-Info.plist"; sourceTree = "<absolute>"; };
+		9C626FCE46FE4DD8A136D8A0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4509B68A8174420A5885CA0 /* libPods-HueAppTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HueAppTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF87B2B18944E1B00FFFF15 /* HueSDK_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HueSDK_iOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +85,9 @@
 			files = (
 				9B5D09BC189243CD00C88AD2 /* CoreGraphics.framework in Frameworks */,
 				9B5D09BE189243CD00C88AD2 /* UIKit.framework in Frameworks */,
+				BEF87B2C18944E1C00FFFF15 /* HueSDK_iOS.framework in Frameworks */,
 				9B5D09BA189243CD00C88AD2 /* Foundation.framework in Frameworks */,
+				172D88DA47D84AD0B59DA1D4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +108,7 @@
 				9B5D09F7189243D700C88AD2 /* CoreGraphics.framework in Frameworks */,
 				9B5D09F8189243D700C88AD2 /* UIKit.framework in Frameworks */,
 				9B5D09F9189243D700C88AD2 /* Foundation.framework in Frameworks */,
+				BEF87B2D18944E1C00FFFF15 /* HueSDK_iOS.framework in Frameworks */,
 				334B87205849456FB526BCFE /* libPods-HueAppTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,6 +124,7 @@
 				9B5D09B8189243CD00C88AD2 /* Frameworks */,
 				9B5D09B7189243CD00C88AD2 /* Products */,
 				5480CDD9D67541758A419852 /* Pods-HueAppTest.xcconfig */,
+				4138AEFF7A6A4F5DBCEC47BC /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,11 +141,13 @@
 		9B5D09B8189243CD00C88AD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BEF87B2B18944E1B00FFFF15 /* HueSDK_iOS.framework */,
 				9B5D09B9189243CD00C88AD2 /* Foundation.framework */,
 				9B5D09BB189243CD00C88AD2 /* CoreGraphics.framework */,
 				9B5D09BD189243CD00C88AD2 /* UIKit.framework */,
 				9B5D09DB189243CD00C88AD2 /* XCTest.framework */,
 				A4509B68A8174420A5885CA0 /* libPods-HueAppTest.a */,
+				9C626FCE46FE4DD8A136D8A0 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B5D09EB189243CD00C88AD2 /* Build configuration list for PBXNativeTarget "HueApp" */;
 			buildPhases = (
+				41B8AF4F6C1E4E7BA5B3E5AF /* Check Pods Manifest.lock */,
 				9B5D09B2189243CD00C88AD2 /* Sources */,
 				9B5D09B3189243CD00C88AD2 /* Frameworks */,
 				9B5D09B4189243CD00C88AD2 /* Resources */,
+				5A4C120EA60547A9AE599B2B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -323,6 +337,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		41B8AF4F6C1E4E7BA5B3E5AF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A4C120EA60547A9AE599B2B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CC2C494F46934AC89CF2A93E /* Copy Pods Resources */ = {
@@ -493,12 +537,18 @@
 		};
 		9B5D09EC189243CD00C88AD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4138AEFF7A6A4F5DBCEC47BC /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/rudistrahl/Source/iOS/HueApp,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HueApp/HueApp-Prefix.pch";
 				INFOPLIST_FILE = "HueApp/HueApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -506,12 +556,18 @@
 		};
 		9B5D09ED189243CD00C88AD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4138AEFF7A6A4F5DBCEC47BC /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/rudistrahl/Source/iOS/HueApp,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HueApp/HueApp-Prefix.pch";
 				INFOPLIST_FILE = "HueApp/HueApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -565,9 +621,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/rudistrahl/Source/iOS/HueApp,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HueApp/HueApp-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/HueApp/HueAppTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "HueApp Test";
 				WRAPPER_EXTENSION = app;
 			};
@@ -579,6 +640,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/rudistrahl/Source/iOS/HueApp,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HueApp/HueApp-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -587,6 +652,7 @@
 					"TESTFLIGHT=1",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/HueApp/HueAppTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "HueApp Test";
 				WRAPPER_EXTENSION = app;
 			};

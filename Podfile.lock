@@ -1,10 +1,17 @@
 PODS:
+  - CocoaLumberjack (1.8.0):
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (1.8.0)
+  - CocoaLumberjack/Extensions (1.8.0):
+    - CocoaLumberjack/Core
   - TestFlightSDK (2.2.1-beta)
 
 DEPENDENCIES:
+  - CocoaLumberjack (~> 1.8.0)
   - TestFlightSDK (~> 2.0)
 
 SPEC CHECKSUMS:
+  CocoaLumberjack: 6ed94046d2ca7fde03a73b3d01b8cfc56574b314
   TestFlightSDK: 4249c2f70e621bcfbdebf019073169c8fe36be13
 
 COCOAPODS: 0.29.0
