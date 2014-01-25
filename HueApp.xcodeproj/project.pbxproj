@@ -68,7 +68,7 @@
 		9B5D09E5189243CD00C88AD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B5D09E7189243CD00C88AD2 /* HueAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HueAppTests.m; sourceTree = "<group>"; };
 		9B5D0A02189243D700C88AD2 /* HueApp Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HueApp Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B5D0A03189243D700C88AD2 /* HueAppTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HueAppTest-Info.plist"; path = "/Users/rudi/Source/iOS/HueApp/HueApp/HueAppTest-Info.plist"; sourceTree = "<absolute>"; };
+		9B5D0A03189243D700C88AD2 /* HueAppTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HueAppTest-Info.plist"; path = "/Users/rudistrahl/Source/iOS/HueApp/HueApp/HueAppTest-Info.plist"; sourceTree = "<absolute>"; };
 		A4509B68A8174420A5885CA0 /* libPods-HueAppTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HueAppTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -567,7 +567,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HueApp/HueApp-Prefix.pch";
-				INFOPLIST_FILE = "HueAppTest-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HueApp/HueAppTest-Info.plist";
 				PRODUCT_NAME = "HueApp Test";
 				WRAPPER_EXTENSION = app;
 			};
@@ -586,7 +586,7 @@
 					"COCOAPODS=1",
 					"TESTFLIGHT=1",
 				);
-				INFOPLIST_FILE = "HueAppTest-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HueApp/HueAppTest-Info.plist";
 				PRODUCT_NAME = "HueApp Test";
 				WRAPPER_EXTENSION = app;
 			};
