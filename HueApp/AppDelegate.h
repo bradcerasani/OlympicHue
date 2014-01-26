@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RSHueController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, RSHueControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) RSHueController *hueController;
 
 @end

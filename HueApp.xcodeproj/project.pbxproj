@@ -34,6 +34,10 @@
 		9B5D09FC189243D700C88AD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D09D4189243CD00C88AD2 /* Images.xcassets */; };
 		9B5D09FD189243D700C88AD2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D09CB189243CD00C88AD2 /* Main_iPhone.storyboard */; };
 		9B5D09FE189243D700C88AD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D09C2189243CD00C88AD2 /* InfoPlist.strings */; };
+		BEC747EA18946CCF006944A8 /* RSHueController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC747E918946CCF006944A8 /* RSHueController.m */; };
+		BEC747EB18946CCF006944A8 /* RSHueController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC747E918946CCF006944A8 /* RSHueController.m */; };
+		BEC747EE1894714C006944A8 /* RSHueBridgeSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC747ED1894714C006944A8 /* RSHueBridgeSelectViewController.m */; };
+		BEC747EF1894714C006944A8 /* RSHueBridgeSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC747ED1894714C006944A8 /* RSHueBridgeSelectViewController.m */; };
 		BEF87B2C18944E1C00FFFF15 /* HueSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF87B2B18944E1B00FFFF15 /* HueSDK_iOS.framework */; };
 		BEF87B2D18944E1C00FFFF15 /* HueSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF87B2B18944E1B00FFFF15 /* HueSDK_iOS.framework */; };
 /* End PBXBuildFile section */
@@ -75,6 +79,10 @@
 		9B5D0A03189243D700C88AD2 /* HueAppTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HueAppTest-Info.plist"; path = "/Users/rudistrahl/Source/iOS/HueApp/HueApp/HueAppTest-Info.plist"; sourceTree = "<absolute>"; };
 		9C626FCE46FE4DD8A136D8A0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4509B68A8174420A5885CA0 /* libPods-HueAppTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HueAppTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC747E818946CCF006944A8 /* RSHueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSHueController.h; sourceTree = "<group>"; };
+		BEC747E918946CCF006944A8 /* RSHueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSHueController.m; sourceTree = "<group>"; };
+		BEC747EC1894714C006944A8 /* RSHueBridgeSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSHueBridgeSelectViewController.h; sourceTree = "<group>"; };
+		BEC747ED1894714C006944A8 /* RSHueBridgeSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSHueBridgeSelectViewController.m; sourceTree = "<group>"; };
 		BEF87B2B18944E1B00FFFF15 /* HueSDK_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HueSDK_iOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +163,7 @@
 		9B5D09BF189243CD00C88AD2 /* HueApp */ = {
 			isa = PBXGroup;
 			children = (
+				BEC747E718946C99006944A8 /* Hue Interface */,
 				9B5D09C8189243CD00C88AD2 /* AppDelegate.h */,
 				9B5D09C9189243CD00C88AD2 /* AppDelegate.m */,
 				9B5D09CB189243CD00C88AD2 /* Main_iPhone.storyboard */,
@@ -195,6 +204,17 @@
 				9B5D09E4189243CD00C88AD2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEC747E718946C99006944A8 /* Hue Interface */ = {
+			isa = PBXGroup;
+			children = (
+				BEC747E818946CCF006944A8 /* RSHueController.h */,
+				BEC747E918946CCF006944A8 /* RSHueController.m */,
+				BEC747EC1894714C006944A8 /* RSHueBridgeSelectViewController.h */,
+				BEC747ED1894714C006944A8 /* RSHueBridgeSelectViewController.m */,
+			);
+			name = "Hue Interface";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,6 +414,8 @@
 				9B5D09D3189243CD00C88AD2 /* ViewController.m in Sources */,
 				9B5D09CA189243CD00C88AD2 /* AppDelegate.m in Sources */,
 				9B5D09C6189243CD00C88AD2 /* main.m in Sources */,
+				BEC747EE1894714C006944A8 /* RSHueBridgeSelectViewController.m in Sources */,
+				BEC747EA18946CCF006944A8 /* RSHueController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +434,8 @@
 				9B5D09F3189243D700C88AD2 /* ViewController.m in Sources */,
 				9B5D09F4189243D700C88AD2 /* AppDelegate.m in Sources */,
 				9B5D09F5189243D700C88AD2 /* main.m in Sources */,
+				BEC747EF1894714C006944A8 /* RSHueBridgeSelectViewController.m in Sources */,
+				BEC747EB18946CCF006944A8 /* RSHueController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
