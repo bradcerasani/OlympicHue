@@ -38,6 +38,22 @@
 		BEC747EB18946CCF006944A8 /* RSHueController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC747E918946CCF006944A8 /* RSHueController.m */; };
 		BEC747EE1894714C006944A8 /* RSHueBridgeSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC747ED1894714C006944A8 /* RSHueBridgeSelectViewController.m */; };
 		BEC747EF1894714C006944A8 /* RSHueBridgeSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC747ED1894714C006944A8 /* RSHueBridgeSelectViewController.m */; };
+		BEC747F71895843D006944A8 /* RSHuePushlinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC747F61895843D006944A8 /* RSHuePushlinkViewController.m */; };
+		BEC747F81895843D006944A8 /* RSHuePushlinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC747F61895843D006944A8 /* RSHuePushlinkViewController.m */; };
+		BEC7480118958D66006944A8 /* background_blur-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FB18958D66006944A8 /* background_blur-568h@2x.jpg */; };
+		BEC7480218958D66006944A8 /* background_blur-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FB18958D66006944A8 /* background_blur-568h@2x.jpg */; };
+		BEC7480318958D66006944A8 /* background_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FC18958D66006944A8 /* background_blur.jpg */; };
+		BEC7480418958D66006944A8 /* background_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FC18958D66006944A8 /* background_blur.jpg */; };
+		BEC7480518958D66006944A8 /* background_blur@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FD18958D66006944A8 /* background_blur@2x.jpg */; };
+		BEC7480618958D66006944A8 /* background_blur@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FD18958D66006944A8 /* background_blur@2x.jpg */; };
+		BEC7480718958D66006944A8 /* icon_sync-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FE18958D66006944A8 /* icon_sync-568h@2x.png */; };
+		BEC7480818958D66006944A8 /* icon_sync-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FE18958D66006944A8 /* icon_sync-568h@2x.png */; };
+		BEC7480918958D66006944A8 /* icon_sync.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FF18958D66006944A8 /* icon_sync.png */; };
+		BEC7480A18958D66006944A8 /* icon_sync.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FF18958D66006944A8 /* icon_sync.png */; };
+		BEC7480B18958D66006944A8 /* icon_sync@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC7480018958D66006944A8 /* icon_sync@2x.png */; };
+		BEC7480C18958D66006944A8 /* icon_sync@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC7480018958D66006944A8 /* icon_sync@2x.png */; };
+		BEC7481418958F34006944A8 /* UIImage+H568.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC7481318958F34006944A8 /* UIImage+H568.m */; };
+		BEC7481518958F34006944A8 /* UIImage+H568.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC7481318958F34006944A8 /* UIImage+H568.m */; };
 		BEF87B2C18944E1C00FFFF15 /* HueSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF87B2B18944E1B00FFFF15 /* HueSDK_iOS.framework */; };
 		BEF87B2D18944E1C00FFFF15 /* HueSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF87B2B18944E1B00FFFF15 /* HueSDK_iOS.framework */; };
 /* End PBXBuildFile section */
@@ -83,6 +99,15 @@
 		BEC747E918946CCF006944A8 /* RSHueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSHueController.m; sourceTree = "<group>"; };
 		BEC747EC1894714C006944A8 /* RSHueBridgeSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSHueBridgeSelectViewController.h; sourceTree = "<group>"; };
 		BEC747ED1894714C006944A8 /* RSHueBridgeSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSHueBridgeSelectViewController.m; sourceTree = "<group>"; };
+		BEC747F51895843D006944A8 /* RSHuePushlinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSHuePushlinkViewController.h; sourceTree = "<group>"; };
+		BEC747F61895843D006944A8 /* RSHuePushlinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSHuePushlinkViewController.m; sourceTree = "<group>"; };
+		BEC747FB18958D66006944A8 /* background_blur-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background_blur-568h@2x.jpg"; sourceTree = "<group>"; };
+		BEC747FC18958D66006944A8 /* background_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_blur.jpg; sourceTree = "<group>"; };
+		BEC747FD18958D66006944A8 /* background_blur@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background_blur@2x.jpg"; sourceTree = "<group>"; };
+		BEC747FE18958D66006944A8 /* icon_sync-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_sync-568h@2x.png"; sourceTree = "<group>"; };
+		BEC747FF18958D66006944A8 /* icon_sync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_sync.png; sourceTree = "<group>"; };
+		BEC7480018958D66006944A8 /* icon_sync@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_sync@2x.png"; sourceTree = "<group>"; };
+		BEC7481318958F34006944A8 /* UIImage+H568.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+H568.m"; sourceTree = "<group>"; };
 		BEF87B2B18944E1B00FFFF15 /* HueSDK_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HueSDK_iOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				9B5D09BF189243CD00C88AD2 /* HueApp */,
+				BEC747FA18958D3D006944A8 /* Resources */,
 				9B5D09E1189243CD00C88AD2 /* HueAppTests */,
 				9B5D09B8189243CD00C88AD2 /* Frameworks */,
 				9B5D09B7189243CD00C88AD2 /* Products */,
@@ -163,6 +189,7 @@
 		9B5D09BF189243CD00C88AD2 /* HueApp */ = {
 			isa = PBXGroup;
 			children = (
+				BEC7480D18958E61006944A8 /* Categories */,
 				BEC747E718946C99006944A8 /* Hue Interface */,
 				9B5D09C8189243CD00C88AD2 /* AppDelegate.h */,
 				9B5D09C9189243CD00C88AD2 /* AppDelegate.m */,
@@ -213,8 +240,31 @@
 				BEC747E918946CCF006944A8 /* RSHueController.m */,
 				BEC747EC1894714C006944A8 /* RSHueBridgeSelectViewController.h */,
 				BEC747ED1894714C006944A8 /* RSHueBridgeSelectViewController.m */,
+				BEC747F51895843D006944A8 /* RSHuePushlinkViewController.h */,
+				BEC747F61895843D006944A8 /* RSHuePushlinkViewController.m */,
 			);
 			name = "Hue Interface";
+			sourceTree = "<group>";
+		};
+		BEC747FA18958D3D006944A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEC747FB18958D66006944A8 /* background_blur-568h@2x.jpg */,
+				BEC747FC18958D66006944A8 /* background_blur.jpg */,
+				BEC747FD18958D66006944A8 /* background_blur@2x.jpg */,
+				BEC747FE18958D66006944A8 /* icon_sync-568h@2x.png */,
+				BEC747FF18958D66006944A8 /* icon_sync.png */,
+				BEC7480018958D66006944A8 /* icon_sync@2x.png */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		BEC7480D18958E61006944A8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BEC7481318958F34006944A8 /* UIImage+H568.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,9 +365,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC7480318958D66006944A8 /* background_blur.jpg in Resources */,
 				9B5D09D0189243CD00C88AD2 /* Main_iPad.storyboard in Resources */,
+				BEC7480718958D66006944A8 /* icon_sync-568h@2x.png in Resources */,
+				BEC7480518958D66006944A8 /* background_blur@2x.jpg in Resources */,
 				9B5D09D5189243CD00C88AD2 /* Images.xcassets in Resources */,
 				9B5D09CD189243CD00C88AD2 /* Main_iPhone.storyboard in Resources */,
+				BEC7480B18958D66006944A8 /* icon_sync@2x.png in Resources */,
+				BEC7480918958D66006944A8 /* icon_sync.png in Resources */,
+				BEC7480118958D66006944A8 /* background_blur-568h@2x.jpg in Resources */,
 				9B5D09C4189243CD00C88AD2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,9 +390,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC7480418958D66006944A8 /* background_blur.jpg in Resources */,
 				9B5D09FB189243D700C88AD2 /* Main_iPad.storyboard in Resources */,
+				BEC7480818958D66006944A8 /* icon_sync-568h@2x.png in Resources */,
+				BEC7480618958D66006944A8 /* background_blur@2x.jpg in Resources */,
 				9B5D09FC189243D700C88AD2 /* Images.xcassets in Resources */,
 				9B5D09FD189243D700C88AD2 /* Main_iPhone.storyboard in Resources */,
+				BEC7480C18958D66006944A8 /* icon_sync@2x.png in Resources */,
+				BEC7480A18958D66006944A8 /* icon_sync.png in Resources */,
+				BEC7480218958D66006944A8 /* background_blur-568h@2x.jpg in Resources */,
 				9B5D09FE189243D700C88AD2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,8 +475,10 @@
 			files = (
 				9B5D09D3189243CD00C88AD2 /* ViewController.m in Sources */,
 				9B5D09CA189243CD00C88AD2 /* AppDelegate.m in Sources */,
+				BEC747F71895843D006944A8 /* RSHuePushlinkViewController.m in Sources */,
 				9B5D09C6189243CD00C88AD2 /* main.m in Sources */,
 				BEC747EE1894714C006944A8 /* RSHueBridgeSelectViewController.m in Sources */,
+				BEC7481418958F34006944A8 /* UIImage+H568.m in Sources */,
 				BEC747EA18946CCF006944A8 /* RSHueController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,8 +497,10 @@
 			files = (
 				9B5D09F3189243D700C88AD2 /* ViewController.m in Sources */,
 				9B5D09F4189243D700C88AD2 /* AppDelegate.m in Sources */,
+				BEC747F81895843D006944A8 /* RSHuePushlinkViewController.m in Sources */,
 				9B5D09F5189243D700C88AD2 /* main.m in Sources */,
 				BEC747EF1894714C006944A8 /* RSHueBridgeSelectViewController.m in Sources */,
+				BEC7481518958F34006944A8 /* UIImage+H568.m in Sources */,
 				BEC747EB18946CCF006944A8 /* RSHueController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
