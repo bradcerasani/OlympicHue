@@ -51,16 +51,25 @@
 }
 
 #pragma mark - Bridge Handshake
+- (BOOL)hasBridgeConfiguration
+{
+    PHBridgeResourcesCache *cache = [PHBridgeResourcesReader readBridgeResourcesCache];
+    if (cache != nil && cache.bridgeConfiguration != nil && cache.bridgeConfiguration.ipaddress != nil)
+        return YES;
+    else
+        return NO;
+}
+
 
 - (void)startLocalHeartbeat
 {
     DLog(@"");
-    PHBridgeResourcesCache *cache = [PHBridgeResourcesReader readBridgeResourcesCache];
-    if (cache != nil && cache.bridgeConfiguration != nil && cache.bridgeConfiguration.ipaddress != nil)
+    if ([self hasBridgeConfiguration])
     {
         [self.hueSDK enableLocalConnectionUsingInterval:10];
     }
-    else {
+    else
+    {
         // No bridge known
         [self searchForBridge];
     }
