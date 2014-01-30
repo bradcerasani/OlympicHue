@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UITableView        *tableView;
 @property (strong, nonatomic) IBOutlet NSMutableArray   *tableData;
 @property (weak, nonatomic) IBOutlet UIView             *headerView;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem    *doneButton;
 
 @end
 
@@ -42,12 +43,23 @@ static NSString *kCountryTableViewCellIdentifier = @"CountrySelectTableViewCell"
                              @"2", @"bronzeCount",
                              nil];
     [self.tableData addObject:country];
+    
+    self.navigationController.navigationItem.rightBarButtonItem = self.doneButton;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - IBActions
+
+- (IBAction)didTapDoneButton:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
 }
 
 #pragma mark - Navigation
