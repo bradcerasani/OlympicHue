@@ -29,7 +29,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ZZk-lc-VF3" kind="push" id="m3r-5V-ZVa"/>
+                                    <segue destination="gqo-zp-bII" kind="modal" id="V9f-gt-RKF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -186,8 +186,15 @@
                             <constraint firstItem="KIy-8i-qLd" firstAttribute="top" secondItem="7Ct-KQ-33h" secondAttribute="top" id="oki-5W-ev6"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="vzq-Zq-Wyl"/>
+                    <navigationItem key="navigationItem" id="vzq-Zq-Wyl">
+                        <barButtonItem key="rightBarButtonItem" title="Done" style="done" id="EsZ-TT-tt2">
+                            <connections>
+                                <action selector="didTapDoneButton:" destination="ZZk-lc-VF3" id="KJd-d2-rwV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="doneButton" destination="EsZ-TT-tt2" id="D5y-OU-Y25"/>
                         <outlet property="headerView" destination="a4d-jL-pyK" id="2nh-1W-pEQ"/>
                         <outlet property="tableView" destination="2B8-6H-N2b" id="5eR-E9-ZS9"/>
                     </connections>
@@ -233,7 +240,22 @@
                     </constraints>
                 </view>
             </objects>
-            <point key="canvasLocation" x="550" y="304"/>
+            <point key="canvasLocation" x="948" y="304"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="r2a-Ev-0Nb">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="gqo-zp-bII" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BG9-aB-B1I">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ZZk-lc-VF3" kind="relationship" relationship="rootViewController" id="L5P-R8-ITj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lr2-qZ-U7s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="466" y="304"/>
         </scene>
     </scenes>
     <resources>

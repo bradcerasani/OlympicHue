@@ -26,13 +26,13 @@
     [TestFlight takeOff:@"962d295b-318b-4ba9-af19-47eeaa1b09c3"];
 #endif
 
-    self.hueController = [[RSHueController alloc] initWithDelegate:self];
+//    self.hueController = [[RSHueController alloc] initWithDelegate:self];
     self.pushlinkViewController = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil] instantiateViewControllerWithIdentifier:@"PushlinkViewController"];
     
-    if (self.hueController.hasBridgeConfiguration)
-    {
-        self.window.rootViewController = self.pushlinkViewController;
-    }
+//    if (self.hueController.hasBridgeConfiguration)
+//    {
+//        self.window.rootViewController = self.pushlinkViewController;
+//    }
     
     return YES;
 }
