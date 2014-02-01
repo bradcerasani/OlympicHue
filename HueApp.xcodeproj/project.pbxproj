@@ -17,14 +17,14 @@
 		9B5D09CA189243CD00C88AD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D09C9189243CD00C88AD2 /* AppDelegate.m */; };
 		9B5D09CD189243CD00C88AD2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D09CB189243CD00C88AD2 /* Main_iPhone.storyboard */; };
 		9B5D09D0189243CD00C88AD2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D09CE189243CD00C88AD2 /* Main_iPad.storyboard */; };
-		9B5D09D3189243CD00C88AD2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D09D2189243CD00C88AD2 /* MainViewController.m */; };
+		9B5D09D3189243CD00C88AD2 /* LeaderboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D09D2189243CD00C88AD2 /* LeaderboardViewController.m */; };
 		9B5D09D5189243CD00C88AD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D09D4189243CD00C88AD2 /* Images.xcassets */; };
 		9B5D09DC189243CD00C88AD2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D09DB189243CD00C88AD2 /* XCTest.framework */; };
 		9B5D09DD189243CD00C88AD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D09B9189243CD00C88AD2 /* Foundation.framework */; };
 		9B5D09DE189243CD00C88AD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D09BD189243CD00C88AD2 /* UIKit.framework */; };
 		9B5D09E6189243CD00C88AD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D09E4189243CD00C88AD2 /* InfoPlist.strings */; };
 		9B5D09E8189243CD00C88AD2 /* HueAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D09E7189243CD00C88AD2 /* HueAppTests.m */; };
-		9B5D09F3189243D700C88AD2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D09D2189243CD00C88AD2 /* MainViewController.m */; };
+		9B5D09F3189243D700C88AD2 /* LeaderboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D09D2189243CD00C88AD2 /* LeaderboardViewController.m */; };
 		9B5D09F4189243D700C88AD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D09C9189243CD00C88AD2 /* AppDelegate.m */; };
 		9B5D09F5189243D700C88AD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D09C5189243CD00C88AD2 /* main.m */; };
 		9B5D09F7189243D700C88AD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D09BB189243CD00C88AD2 /* CoreGraphics.framework */; };
@@ -40,24 +40,30 @@
 		BEC747EF1894714C006944A8 /* RSHueBridgeSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC747ED1894714C006944A8 /* RSHueBridgeSelectViewController.m */; };
 		BEC747F71895843D006944A8 /* RSHuePushlinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC747F61895843D006944A8 /* RSHuePushlinkViewController.m */; };
 		BEC747F81895843D006944A8 /* RSHuePushlinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC747F61895843D006944A8 /* RSHuePushlinkViewController.m */; };
-		BEC7480118958D66006944A8 /* background_blur-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FB18958D66006944A8 /* background_blur-568h@2x.jpg */; };
-		BEC7480218958D66006944A8 /* background_blur-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FB18958D66006944A8 /* background_blur-568h@2x.jpg */; };
-		BEC7480318958D66006944A8 /* background_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FC18958D66006944A8 /* background_blur.jpg */; };
-		BEC7480418958D66006944A8 /* background_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FC18958D66006944A8 /* background_blur.jpg */; };
-		BEC7480518958D66006944A8 /* background_blur@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FD18958D66006944A8 /* background_blur@2x.jpg */; };
-		BEC7480618958D66006944A8 /* background_blur@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FD18958D66006944A8 /* background_blur@2x.jpg */; };
-		BEC7480718958D66006944A8 /* icon_sync-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FE18958D66006944A8 /* icon_sync-568h@2x.png */; };
-		BEC7480818958D66006944A8 /* icon_sync-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FE18958D66006944A8 /* icon_sync-568h@2x.png */; };
-		BEC7480918958D66006944A8 /* icon_sync.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FF18958D66006944A8 /* icon_sync.png */; };
-		BEC7480A18958D66006944A8 /* icon_sync.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC747FF18958D66006944A8 /* icon_sync.png */; };
-		BEC7480B18958D66006944A8 /* icon_sync@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC7480018958D66006944A8 /* icon_sync@2x.png */; };
-		BEC7480C18958D66006944A8 /* icon_sync@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC7480018958D66006944A8 /* icon_sync@2x.png */; };
 		BEC7481418958F34006944A8 /* UIImage+H568.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC7481318958F34006944A8 /* UIImage+H568.m */; };
 		BEC7481518958F34006944A8 /* UIImage+H568.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC7481318958F34006944A8 /* UIImage+H568.m */; };
 		BEC748181895B70B006944A8 /* CountrySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC748171895B70B006944A8 /* CountrySelectViewController.m */; };
 		BEC748191895B70B006944A8 /* CountrySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC748171895B70B006944A8 /* CountrySelectViewController.m */; };
-		BEC7481C1895B9CA006944A8 /* CountrySelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC7481B1895B9CA006944A8 /* CountrySelectTableViewCell.m */; };
-		BEC7481D1895B9CA006944A8 /* CountrySelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC7481B1895B9CA006944A8 /* CountrySelectTableViewCell.m */; };
+		BEC7481C1895B9CA006944A8 /* LeaderboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC7481B1895B9CA006944A8 /* LeaderboardTableViewCell.m */; };
+		BEC7481D1895B9CA006944A8 /* LeaderboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC7481B1895B9CA006944A8 /* LeaderboardTableViewCell.m */; };
+		BEDF2ADC189D84B100B20C80 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDF2ADB189D84B100B20C80 /* Constants.m */; };
+		BEDF2ADD189D84B100B20C80 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDF2ADB189D84B100B20C80 /* Constants.m */; };
+		BEDF2AEC189D935500B20C80 /* background_blur-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEDF2AE5189D935500B20C80 /* background_blur-568h@2x.jpg */; };
+		BEDF2AED189D935500B20C80 /* background_blur-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEDF2AE5189D935500B20C80 /* background_blur-568h@2x.jpg */; };
+		BEDF2AEE189D935500B20C80 /* background_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEDF2AE6189D935500B20C80 /* background_blur.jpg */; };
+		BEDF2AEF189D935500B20C80 /* background_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEDF2AE6189D935500B20C80 /* background_blur.jpg */; };
+		BEDF2AF0189D935500B20C80 /* background_blur@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEDF2AE7189D935500B20C80 /* background_blur@2x.jpg */; };
+		BEDF2AF1189D935500B20C80 /* background_blur@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEDF2AE7189D935500B20C80 /* background_blur@2x.jpg */; };
+		BEDF2AF2189D935500B20C80 /* icon_sync-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF2AE9189D935500B20C80 /* icon_sync-568h@2x.png */; };
+		BEDF2AF3189D935500B20C80 /* icon_sync-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF2AE9189D935500B20C80 /* icon_sync-568h@2x.png */; };
+		BEDF2AF4189D935500B20C80 /* icon_sync.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF2AEA189D935500B20C80 /* icon_sync.png */; };
+		BEDF2AF5189D935500B20C80 /* icon_sync.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF2AEA189D935500B20C80 /* icon_sync.png */; };
+		BEDF2AF6189D935500B20C80 /* icon_sync@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF2AEB189D935500B20C80 /* icon_sync@2x.png */; };
+		BEDF2AF7189D935500B20C80 /* icon_sync@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF2AEB189D935500B20C80 /* icon_sync@2x.png */; };
+		BEDF2AFB189D969000B20C80 /* LeaderboardDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDF2AFA189D969000B20C80 /* LeaderboardDetailsViewController.m */; };
+		BEDF2AFC189D969000B20C80 /* LeaderboardDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDF2AFA189D969000B20C80 /* LeaderboardDetailsViewController.m */; };
+		BEDF2B01189D972600B20C80 /* HueControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDF2B00189D972600B20C80 /* HueControlsViewController.m */; };
+		BEDF2B02189D972600B20C80 /* HueControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDF2B00189D972600B20C80 /* HueControlsViewController.m */; };
 		BEF87B2C18944E1C00FFFF15 /* HueSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF87B2B18944E1B00FFFF15 /* HueSDK_iOS.framework */; };
 		BEF87B2D18944E1C00FFFF15 /* HueSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF87B2B18944E1B00FFFF15 /* HueSDK_iOS.framework */; };
 /* End PBXBuildFile section */
@@ -87,8 +93,8 @@
 		9B5D09C9189243CD00C88AD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9B5D09CC189243CD00C88AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		9B5D09CF189243CD00C88AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		9B5D09D1189243CD00C88AD2 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		9B5D09D2189243CD00C88AD2 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9B5D09D1189243CD00C88AD2 /* LeaderboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeaderboardViewController.h; sourceTree = "<group>"; };
+		9B5D09D2189243CD00C88AD2 /* LeaderboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeaderboardViewController.m; sourceTree = "<group>"; };
 		9B5D09D4189243CD00C88AD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9B5D09DA189243CD00C88AD2 /* HueAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HueAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5D09DB189243CD00C88AD2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -105,17 +111,23 @@
 		BEC747ED1894714C006944A8 /* RSHueBridgeSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSHueBridgeSelectViewController.m; sourceTree = "<group>"; };
 		BEC747F51895843D006944A8 /* RSHuePushlinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSHuePushlinkViewController.h; sourceTree = "<group>"; };
 		BEC747F61895843D006944A8 /* RSHuePushlinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSHuePushlinkViewController.m; sourceTree = "<group>"; };
-		BEC747FB18958D66006944A8 /* background_blur-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background_blur-568h@2x.jpg"; sourceTree = "<group>"; };
-		BEC747FC18958D66006944A8 /* background_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_blur.jpg; sourceTree = "<group>"; };
-		BEC747FD18958D66006944A8 /* background_blur@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background_blur@2x.jpg"; sourceTree = "<group>"; };
-		BEC747FE18958D66006944A8 /* icon_sync-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_sync-568h@2x.png"; sourceTree = "<group>"; };
-		BEC747FF18958D66006944A8 /* icon_sync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_sync.png; sourceTree = "<group>"; };
-		BEC7480018958D66006944A8 /* icon_sync@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_sync@2x.png"; sourceTree = "<group>"; };
 		BEC7481318958F34006944A8 /* UIImage+H568.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+H568.m"; sourceTree = "<group>"; };
 		BEC748161895B70B006944A8 /* CountrySelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountrySelectViewController.h; sourceTree = "<group>"; };
 		BEC748171895B70B006944A8 /* CountrySelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountrySelectViewController.m; sourceTree = "<group>"; };
-		BEC7481A1895B9CA006944A8 /* CountrySelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountrySelectTableViewCell.h; sourceTree = "<group>"; };
-		BEC7481B1895B9CA006944A8 /* CountrySelectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountrySelectTableViewCell.m; sourceTree = "<group>"; };
+		BEC7481A1895B9CA006944A8 /* LeaderboardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardTableViewCell.h; sourceTree = "<group>"; };
+		BEC7481B1895B9CA006944A8 /* LeaderboardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardTableViewCell.m; sourceTree = "<group>"; };
+		BEDF2ADA189D84B100B20C80 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		BEDF2ADB189D84B100B20C80 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		BEDF2AE5189D935500B20C80 /* background_blur-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background_blur-568h@2x.jpg"; sourceTree = "<group>"; };
+		BEDF2AE6189D935500B20C80 /* background_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_blur.jpg; sourceTree = "<group>"; };
+		BEDF2AE7189D935500B20C80 /* background_blur@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background_blur@2x.jpg"; sourceTree = "<group>"; };
+		BEDF2AE9189D935500B20C80 /* icon_sync-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_sync-568h@2x.png"; sourceTree = "<group>"; };
+		BEDF2AEA189D935500B20C80 /* icon_sync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_sync.png; sourceTree = "<group>"; };
+		BEDF2AEB189D935500B20C80 /* icon_sync@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_sync@2x.png"; sourceTree = "<group>"; };
+		BEDF2AF9189D969000B20C80 /* LeaderboardDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardDetailsViewController.h; sourceTree = "<group>"; };
+		BEDF2AFA189D969000B20C80 /* LeaderboardDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardDetailsViewController.m; sourceTree = "<group>"; };
+		BEDF2AFF189D972600B20C80 /* HueControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HueControlsViewController.h; sourceTree = "<group>"; };
+		BEDF2B00189D972600B20C80 /* HueControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HueControlsViewController.m; sourceTree = "<group>"; };
 		BEF87B2B18944E1B00FFFF15 /* HueSDK_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HueSDK_iOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -197,9 +209,12 @@
 		9B5D09BF189243CD00C88AD2 /* HueApp */ = {
 			isa = PBXGroup;
 			children = (
+				BEDF2ADA189D84B100B20C80 /* Constants.h */,
+				BEDF2ADB189D84B100B20C80 /* Constants.m */,
 				BEC7480D18958E61006944A8 /* Categories */,
 				BEC747E718946C99006944A8 /* Hue Interface */,
 				BEC748221895C2BA006944A8 /* View Controllers */,
+				BEDF2AE3189D931700B20C80 /* Views */,
 				9B5D09C8189243CD00C88AD2 /* AppDelegate.h */,
 				9B5D09C9189243CD00C88AD2 /* AppDelegate.m */,
 				9B5D09CB189243CD00C88AD2 /* Main_iPhone.storyboard */,
@@ -256,12 +271,8 @@
 		BEC747FA18958D3D006944A8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BEC747FB18958D66006944A8 /* background_blur-568h@2x.jpg */,
-				BEC747FC18958D66006944A8 /* background_blur.jpg */,
-				BEC747FD18958D66006944A8 /* background_blur@2x.jpg */,
-				BEC747FE18958D66006944A8 /* icon_sync-568h@2x.png */,
-				BEC747FF18958D66006944A8 /* icon_sync.png */,
-				BEC7480018958D66006944A8 /* icon_sync@2x.png */,
+				BEDF2AE4189D935500B20C80 /* backgrounds */,
+				BEDF2AE8189D935500B20C80 /* icons */,
 			);
 			path = Resources;
 			sourceTree = SOURCE_ROOT;
@@ -277,9 +288,10 @@
 		BEC748221895C2BA006944A8 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BEDF2AFE189D971C00B20C80 /* Hue Controls */,
+				BEDF2AFD189D969700B20C80 /* Leaderboard Details */,
+				BEDF2AF8189D965800B20C80 /* Leaderboard */,
 				BEC748231895C2D3006944A8 /* Country Select */,
-				9B5D09D1189243CD00C88AD2 /* MainViewController.h */,
-				9B5D09D2189243CD00C88AD2 /* MainViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -289,10 +301,64 @@
 			children = (
 				BEC748161895B70B006944A8 /* CountrySelectViewController.h */,
 				BEC748171895B70B006944A8 /* CountrySelectViewController.m */,
-				BEC7481A1895B9CA006944A8 /* CountrySelectTableViewCell.h */,
-				BEC7481B1895B9CA006944A8 /* CountrySelectTableViewCell.m */,
 			);
 			name = "Country Select";
+			sourceTree = "<group>";
+		};
+		BEDF2AE3189D931700B20C80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEC7481A1895B9CA006944A8 /* LeaderboardTableViewCell.h */,
+				BEC7481B1895B9CA006944A8 /* LeaderboardTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BEDF2AE4189D935500B20C80 /* backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				BEDF2AE5189D935500B20C80 /* background_blur-568h@2x.jpg */,
+				BEDF2AE6189D935500B20C80 /* background_blur.jpg */,
+				BEDF2AE7189D935500B20C80 /* background_blur@2x.jpg */,
+			);
+			path = backgrounds;
+			sourceTree = "<group>";
+		};
+		BEDF2AE8189D935500B20C80 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				BEDF2AE9189D935500B20C80 /* icon_sync-568h@2x.png */,
+				BEDF2AEA189D935500B20C80 /* icon_sync.png */,
+				BEDF2AEB189D935500B20C80 /* icon_sync@2x.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		BEDF2AF8189D965800B20C80 /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				9B5D09D1189243CD00C88AD2 /* LeaderboardViewController.h */,
+				9B5D09D2189243CD00C88AD2 /* LeaderboardViewController.m */,
+			);
+			name = Leaderboard;
+			sourceTree = "<group>";
+		};
+		BEDF2AFD189D969700B20C80 /* Leaderboard Details */ = {
+			isa = PBXGroup;
+			children = (
+				BEDF2AF9189D969000B20C80 /* LeaderboardDetailsViewController.h */,
+				BEDF2AFA189D969000B20C80 /* LeaderboardDetailsViewController.m */,
+			);
+			name = "Leaderboard Details";
+			sourceTree = "<group>";
+		};
+		BEDF2AFE189D971C00B20C80 /* Hue Controls */ = {
+			isa = PBXGroup;
+			children = (
+				BEDF2AFF189D972600B20C80 /* HueControlsViewController.h */,
+				BEDF2B00189D972600B20C80 /* HueControlsViewController.m */,
+			);
+			name = "Hue Controls";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,16 +459,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC7480318958D66006944A8 /* background_blur.jpg in Resources */,
+				BEDF2AEE189D935500B20C80 /* background_blur.jpg in Resources */,
 				9B5D09D0189243CD00C88AD2 /* Main_iPad.storyboard in Resources */,
-				BEC7480718958D66006944A8 /* icon_sync-568h@2x.png in Resources */,
-				BEC7480518958D66006944A8 /* background_blur@2x.jpg in Resources */,
+				BEDF2AF0189D935500B20C80 /* background_blur@2x.jpg in Resources */,
+				BEDF2AEC189D935500B20C80 /* background_blur-568h@2x.jpg in Resources */,
 				9B5D09D5189243CD00C88AD2 /* Images.xcassets in Resources */,
 				9B5D09CD189243CD00C88AD2 /* Main_iPhone.storyboard in Resources */,
-				BEC7480B18958D66006944A8 /* icon_sync@2x.png in Resources */,
-				BEC7480918958D66006944A8 /* icon_sync.png in Resources */,
-				BEC7480118958D66006944A8 /* background_blur-568h@2x.jpg in Resources */,
+				BEDF2AF6189D935500B20C80 /* icon_sync@2x.png in Resources */,
+				BEDF2AF4189D935500B20C80 /* icon_sync.png in Resources */,
 				9B5D09C4189243CD00C88AD2 /* InfoPlist.strings in Resources */,
+				BEDF2AF2189D935500B20C80 /* icon_sync-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,16 +484,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC7480418958D66006944A8 /* background_blur.jpg in Resources */,
+				BEDF2AEF189D935500B20C80 /* background_blur.jpg in Resources */,
 				9B5D09FB189243D700C88AD2 /* Main_iPad.storyboard in Resources */,
-				BEC7480818958D66006944A8 /* icon_sync-568h@2x.png in Resources */,
-				BEC7480618958D66006944A8 /* background_blur@2x.jpg in Resources */,
+				BEDF2AF1189D935500B20C80 /* background_blur@2x.jpg in Resources */,
+				BEDF2AED189D935500B20C80 /* background_blur-568h@2x.jpg in Resources */,
 				9B5D09FC189243D700C88AD2 /* Images.xcassets in Resources */,
 				9B5D09FD189243D700C88AD2 /* Main_iPhone.storyboard in Resources */,
-				BEC7480C18958D66006944A8 /* icon_sync@2x.png in Resources */,
-				BEC7480A18958D66006944A8 /* icon_sync.png in Resources */,
-				BEC7480218958D66006944A8 /* background_blur-568h@2x.jpg in Resources */,
+				BEDF2AF7189D935500B20C80 /* icon_sync@2x.png in Resources */,
+				BEDF2AF5189D935500B20C80 /* icon_sync.png in Resources */,
 				9B5D09FE189243D700C88AD2 /* InfoPlist.strings in Resources */,
+				BEDF2AF3189D935500B20C80 /* icon_sync-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,12 +567,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC7481C1895B9CA006944A8 /* CountrySelectTableViewCell.m in Sources */,
-				9B5D09D3189243CD00C88AD2 /* MainViewController.m in Sources */,
+				BEC7481C1895B9CA006944A8 /* LeaderboardTableViewCell.m in Sources */,
+				9B5D09D3189243CD00C88AD2 /* LeaderboardViewController.m in Sources */,
 				9B5D09CA189243CD00C88AD2 /* AppDelegate.m in Sources */,
 				BEC747F71895843D006944A8 /* RSHuePushlinkViewController.m in Sources */,
 				9B5D09C6189243CD00C88AD2 /* main.m in Sources */,
+				BEDF2ADC189D84B100B20C80 /* Constants.m in Sources */,
 				BEC747EE1894714C006944A8 /* RSHueBridgeSelectViewController.m in Sources */,
+				BEDF2B01189D972600B20C80 /* HueControlsViewController.m in Sources */,
+				BEDF2AFB189D969000B20C80 /* LeaderboardDetailsViewController.m in Sources */,
 				BEC748181895B70B006944A8 /* CountrySelectViewController.m in Sources */,
 				BEC7481418958F34006944A8 /* UIImage+H568.m in Sources */,
 				BEC747EA18946CCF006944A8 /* RSHueController.m in Sources */,
@@ -525,12 +594,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC7481D1895B9CA006944A8 /* CountrySelectTableViewCell.m in Sources */,
-				9B5D09F3189243D700C88AD2 /* MainViewController.m in Sources */,
+				BEC7481D1895B9CA006944A8 /* LeaderboardTableViewCell.m in Sources */,
+				9B5D09F3189243D700C88AD2 /* LeaderboardViewController.m in Sources */,
 				9B5D09F4189243D700C88AD2 /* AppDelegate.m in Sources */,
 				BEC747F81895843D006944A8 /* RSHuePushlinkViewController.m in Sources */,
 				9B5D09F5189243D700C88AD2 /* main.m in Sources */,
+				BEDF2ADD189D84B100B20C80 /* Constants.m in Sources */,
 				BEC747EF1894714C006944A8 /* RSHueBridgeSelectViewController.m in Sources */,
+				BEDF2B02189D972600B20C80 /* HueControlsViewController.m in Sources */,
+				BEDF2AFC189D969000B20C80 /* LeaderboardDetailsViewController.m in Sources */,
 				BEC748191895B70B006944A8 /* CountrySelectViewController.m in Sources */,
 				BEC7481518958F34006944A8 /* UIImage+H568.m in Sources */,
 				BEC747EB18946CCF006944A8 /* RSHueController.m in Sources */,

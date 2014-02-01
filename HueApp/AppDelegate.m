@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "RSHueController.h"
 #import "RSHuePushlinkViewController.h"
-#import "MainViewController.h"
+#import "LeaderboardViewController.h"
 
 @interface AppDelegate() <RSHueControllerDelegate>
 
@@ -74,7 +74,7 @@
 - (void)removePushlinkViewController
 {
 
-    MainViewController *viewController = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil] instantiateViewControllerWithIdentifier:@"MainViewController"];
+    LeaderboardViewController *viewController = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil] instantiateViewControllerWithIdentifier:@"MainViewController"];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
     [self.window setRootViewController:navigationController];
 }

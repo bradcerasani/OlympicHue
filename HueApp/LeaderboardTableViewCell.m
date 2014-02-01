@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Rudi Strahl. All rights reserved.
 //
 
-#import "CountrySelectTableViewCell.h"
+#import "LeaderboardTableViewCell.h"
 
-@implementation CountrySelectTableViewCell
+@implementation LeaderboardTableViewCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

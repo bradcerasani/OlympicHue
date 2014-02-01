@@ -7,7 +7,7 @@
 //
 
 #import "CountrySelectViewController.h"
-#import "CountrySelectTableViewCell.h"
+#import "LeaderboardTableViewCell.h"
 
 @interface CountrySelectViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -34,7 +34,6 @@ static NSString *kCountryTableViewCellIdentifier = @"CountrySelectTableViewCell"
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.navigationController setNavigationBarHidden:NO animated:YES];
     self.tableData = [NSMutableArray array];
     NSDictionary *country = [NSDictionary dictionaryWithObjectsAndKeys:
                              @"Canada", @"countryName",
@@ -43,8 +42,6 @@ static NSString *kCountryTableViewCellIdentifier = @"CountrySelectTableViewCell"
                              @"2", @"bronzeCount",
                              nil];
     [self.tableData addObject:country];
-    
-    self.navigationController.navigationItem.rightBarButtonItem = self.doneButton;
 }
 
 - (void)didReceiveMemoryWarning
@@ -72,16 +69,6 @@ static NSString *kCountryTableViewCellIdentifier = @"CountrySelectTableViewCell"
 
 #pragma mark - UITableViewDataSource
 
-- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
-{
-    return _headerView;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{
-    return 44;
-}
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 1;
@@ -94,27 +81,25 @@ static NSString *kCountryTableViewCellIdentifier = @"CountrySelectTableViewCell"
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    CountrySelectTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kCountryTableViewCellIdentifier];
+    LeaderboardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kCountryTableViewCellIdentifier];
     if (cell == nil)
     {
-        cell = [[CountrySelectTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCountryTableViewCellIdentifier];
+        cell = [[LeaderboardTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCountryTableViewCellIdentifier];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
-    NSDictionary *item = (NSDictionary *)[self.tableData objectAtIndex:indexPath.row];
+    NSDictionary *country = (NSDictionary *)[self.tableData objectAtIndex:indexPath.row];
     
-    cell.countryNameLabel.text = [item objectForKey:@"countryName"];
-    cell.goldLabel.text = [item objectForKey:@"goldCount"];
-    cell.silverLabel.text = [item objectForKey:@"silverCount"];
-    cell.bronzeLabel.text = [item objectForKey:@"bronzeCount"];
+    cell.countryNameLabel.text = [country objectForKey:@"countryName"];
+    cell.goldLabel.text = [country objectForKey:@"goldCount"];
+    cell.silverLabel.text = [country objectForKey:@"silverCount"];
+    cell.bronzeLabel.text = [country objectForKey:@"bronzeCount"];
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:[item objectForKey:@"imageKey"] ofType:@"png"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:[country objectForKey:@"imageKey"] ofType:@"png"];
     UIImage *flagImage = [UIImage imageWithContentsOfFile:path];
-    if (!flagImage)
+    if (flagImage)
     {
-#warning Incomplete Implementation - Detect missing flag image and replace
+        cell.flagImage.image = flagImage;
     }
-    cell.flagImage.image = flagImage;
-    
     return cell;
 }
 
@@ -122,8 +107,10 @@ static NSString *kCountryTableViewCellIdentifier = @"CountrySelectTableViewCell"
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-#warning Incomplete Implementation - return to the mainviewcontroller with the country selected
-    
+    NSDictionary *country = (NSDictionary *)[self.tableData objectAtIndex:indexPath.row];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setValue:[country objectForKey:@"countryID"] forKey:kSettingsCountry];
+    [defaults synchronize];
 }
 
 @end

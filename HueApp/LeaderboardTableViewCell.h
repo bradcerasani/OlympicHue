@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CountrySelectTableViewCell : UITableViewCell
+@interface LeaderboardTableViewCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView            *flagImage;
 @property (weak, nonatomic) IBOutlet UILabel                *countryNameLabel;

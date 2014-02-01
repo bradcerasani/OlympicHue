@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 Rudi Strahl. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "LeaderboardViewController.h"
 
-@interface MainViewController ()
+@interface LeaderboardViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView            *backgroundImageView;
 
 @end
 
-@implementation MainViewController
+@implementation LeaderboardViewController
 
 - (void)viewDidLoad
 {
@@ -23,7 +23,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    [self.navigationController setNavigationBarHidden:YES animated:NO];
+
 }
 
 - (void)didReceiveMemoryWarning
